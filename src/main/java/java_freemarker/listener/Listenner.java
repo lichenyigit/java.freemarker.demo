@@ -26,10 +26,10 @@ import java.util.Map;
 @WebListener
 public class Listenner implements ServletContextListener {
 	private static Logger logger = LogManager.getLogger(Listenner.class);
-	
+
 	private static Context rootCtx = null;
 	private static Configuration templateCfg = null;
-	
+
 	@Override
 	public void contextInitialized(ServletContextEvent sce){
 		Context ctx;
